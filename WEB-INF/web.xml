@@ -1,0 +1,24 @@
+<web-app>
+<welcome-file-list>
+    <welcome-file>front.jsp</welcome-file>
+  </welcome-file-list>
+  
+<context-param>
+  	<param-name>oracletab</param-name>
+  	<param-value>yes</param-value>
+</context-param>
+
+
+<servlet>
+	 <servlet-name>ApplicaionInitializer</servlet-name>
+	 <servlet-class>Initializer.ApplicaionInitializer</servlet-class>
+	<load-on-startup>1</load-on-startup>
+ </servlet>
+<servlet-mapping>
+	<servlet-name>ApplicaionInitializer</servlet-name>
+	<url-pattern>/application</url-pattern>
+</servlet-mapping>
+ 
+
+
+</web-app>

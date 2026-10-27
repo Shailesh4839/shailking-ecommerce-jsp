@@ -1,0 +1,4 @@
+create table form(name VARCHAR2(20),pass VARCHAR2(20))
+/
+stop
+
